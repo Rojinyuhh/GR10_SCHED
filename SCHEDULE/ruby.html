@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>10-RUBY Class Schedule</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div><h1>10-RUBY Class Schedule</h1><p>A.Y. 2026–2027</p></div>
+  <a class="nav-btn" href="index.html">← Schedules</a>
+</header>
+<div class="container">
+  <section class="info">
+    <div class="info-grid">
+      <div><strong>Class Adviser:</strong> Ms. Angelina Cristobal</div>
+      <div><strong>Room No:</strong> 315</div>
+    </div>
+  </section>
+  <div class="controls">
+    <button class="day-btn active" data-day="all">All Days</button>
+    <button class="day-btn" data-day="Monday">Monday</button>
+    <button class="day-btn" data-day="Tuesday">Tuesday</button>
+    <button class="day-btn" data-day="Wednesday">Wednesday</button>
+    <button class="day-btn" data-day="Thursday">Thursday</button>
+    <button class="day-btn" data-day="Friday">Friday</button>
+  </div>
+  <input id="subjectSearch" class="search" type="text" placeholder="Search for a subject, teacher, or class...">
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>PERIOD</th><th>MONDAY</th><th>TUESDAY</th><th>WEDNESDAY</th><th>THURSDAY</th><th>FRIDAY</th></tr></thead>
+      <tbody><tr><td>1st Period</td><td class="class-cell " data-day="Monday">
+      <span class="subject">HOMEROOM</span>
+      <span class="teacher">A. Cristobal</span>
+      <span class="time">7:00 - 7:30 am</span>
+    </td><td class="class-cell " data-day="Tuesday">
+      <span class="subject">I.C.T.</span>
+      <span class="teacher">L. Balajadia</span>
+      <span class="time">7:00 - 8:00 am</span>
+    </td><td class="class-cell " data-day="Wednesday">
+      <span class="subject">T.L.E</span>
+      <span class="teacher">R. Sarmiento</span>
+      <span class="time">7:00 - 8:00 am</span>
+    </td><td class="class-cell " data-day="Thursday">
+      <span class="subject">SCIENCE</span>
+      <span class="teacher">A. Galang</span>
+      <span class="time">7:00 - 8:00 am</span>
+    </td><td class="class-cell " data-day="Friday">
+      <span class="subject">MATHEMATICS</span>
+      <span class="teacher">L. Tuzon</span>
+      <span class="time">7:00 - 8:00 am</span>
+    </td></tr><tr><td class="break">Break</td><td class="break" data-day="Monday">Break / Snacks</td><td class="break" data-day="Tuesday">Break / Snacks</td><td class="break" data-day="Wednesday">Break / Snacks</td><td class="break" data-day="Thursday">Break / Snacks</td><td class="break" data-day="Friday">Break / Snacks</td></tr><tr><td>2nd Period</td><td class="class-cell " data-day="Monday">
+      <span class="subject">MATHEMATICS</span>
+      <span class="teacher">L. Tuzon</span>
+      <span class="time">7:30 - 8:30 am</span>
+    </td><td class="class-cell " data-day="Tuesday">
+      <span class="subject">I.C.T.</span>
+      <span class="teacher">L. Balajadia</span>
+      <span class="time">8:00 - 9:00 am</span>
+    </td><td class="class-cell " data-day="Wednesday">
+      <span class="subject">T.L.E</span>
+      <span class="teacher">R. Sarmiento</span>
+      <span class="time">8:00 - 9:00 am</span>
+    </td><td class="empty" data-day="Thursday">—</td><td class="class-cell " data-day="Friday">
+      <span class="subject">ENGLISH</span>
+      <span class="teacher">M. Franco</span>
+      <span class="time">8:00 - 9:00 am</span>
+    </td></tr><tr><td class="break">Break</td><td class="break" data-day="Monday">Break / Snacks</td><td class="break" data-day="Tuesday">Break / Snacks</td><td class="break" data-day="Wednesday">Break / Snacks</td><td class="break" data-day="Thursday">Break / Snacks</td><td class="break" data-day="Friday">Break / Snacks</td></tr><tr><td>3rd Period</td><td class="class-cell " data-day="Monday">
+      <span class="subject">V. E.</span>
+      <span class="teacher">S. Mercado</span>
+      <span class="time">8:30 - 9:30 am</span>
+    </td><td class="class-cell " data-day="Tuesday">
+      <span class="subject">ENGLISH</span>
+      <span class="teacher">M. Franco</span>
+      <span class="time">9:30 - 10:30 am</span>
+    </td><td class="class-cell " data-day="Wednesday">
+      <span class="subject">ENGLISH</span>
+      <span class="teacher">M. Franco</span>
+      <span class="time">9:30 - 10:30 am</span>
+    </td><td class="class-cell " data-day="Thursday">
+      <span class="subject">MUSIC & ARTS</span>
+      <span class="teacher">A. Aguirre</span>
+      <span class="time">8:30 - 9:30 am</span>
+    </td><td class="class-cell " data-day="Friday">
+      <span class="subject">ENGLISH</span>
+      <span class="teacher">M. Franco</span>
+      <span class="time">9:30 - 10:30 am</span>
+    </td></tr><tr><td class="break">Break</td><td class="break" data-day="Monday">Break / Snacks</td><td class="break" data-day="Tuesday">Break / Snacks</td><td class="break" data-day="Wednesday">Break / Snacks</td><td class="break" data-day="Thursday">Break / Snacks</td><td class="break" data-day="Friday">Break / Snacks</td></tr><tr><td>4th Period</td><td class="class-cell " data-day="Monday">
+      <span class="subject">ENGLISH</span>
+      <span class="teacher">M. Franco</span>
+      <span class="time">10:00 - 11:00 am</span>
+    </td><td class="class-cell " data-day="Tuesday">
+      <span class="subject">MATHEMATICS</span>
+      <span class="teacher">L. Tuzon</span>
+      <span class="time">10:30 - 11:30 am</span>
+    </td><td class="class-cell " data-day="Wednesday">
+      <span class="subject">SCIENCE</span>
+      <span class="teacher">A. Galang</span>
+      <span class="time">10:30 - 11:30 am</span>
+    </td><td class="class-cell " data-day="Thursday">
+      <span class="subject">MATHEMATICS</span>
+      <span class="teacher">L. Tuzon</span>
+      <span class="time">9:30 - 10:30 am</span>
+    </td><td class="class-cell " data-day="Friday">
+      <span class="subject">SCIENCE</span>
+      <span class="teacher">A. Galang</span>
+      <span class="time">10:30 - 11:30 am</span>
+    </td></tr><tr><td class="lunch">Break</td><td class="lunch" data-day="Monday">Lunch<br><small>11:30 - 12:30 pm</small></td><td class="lunch" data-day="Tuesday">Lunch<br><small>11:30 - 12:30 pm</small></td><td class="lunch" data-day="Wednesday">Lunch<br><small>11:30 - 12:30 pm</small></td><td class="lunch" data-day="Thursday">Lunch<br><small>11:30 - 12:30 pm</small></td><td class="lunch" data-day="Friday">Lunch<br><small>11:30 - 12:30 pm</small></td></tr><tr><td>5th Period</td><td class="class-cell " data-day="Monday">
+      <span class="subject">PE. & HEALTH</span>
+      <span class="teacher">M. Layug</span>
+      <span class="time">11:00 - 12:00 pm</span>
+    </td><td class="class-cell " data-day="Tuesday">
+      <span class="subject">FILIPINO</span>
+      <span class="teacher">D. Perez</span>
+      <span class="time">11:30 - 12:30 pm</span>
+    </td><td class="class-cell " data-day="Wednesday">
+      <span class="subject">FILIPINO</span>
+      <span class="teacher">D. Perez</span>
+      <span class="time">11:30 - 12:30 pm</span>
+    </td><td class="class-cell " data-day="Thursday">
+      <span class="subject">MATHEMATICS</span>
+      <span class="teacher">L. Tuzon</span>
+      <span class="time">10:30 - 11:30 am</span>
+    </td><td class="class-cell " data-day="Friday">
+      <span class="subject">SCIENCE</span>
+      <span class="teacher">A. Galang</span>
+      <span class="time">11:30 - 12:30 pm</span>
+    </td></tr><tr><td class="lunch">Break</td><td class="lunch" data-day="Monday">Lunch / Break<br><small>12:30 - 1:00 pm</small></td><td class="lunch" data-day="Tuesday">Lunch / Break<br><small>12:30 - 1:00 pm</small></td><td class="lunch" data-day="Wednesday">Lunch / Break<br><small>12:30 - 1:00 pm</small></td><td class="lunch" data-day="Thursday">Lunch / Break<br><small>12:30 - 1:00 pm</small></td><td class="lunch" data-day="Friday">Lunch / Break<br><small>12:30 - 1:00 pm</small></td></tr><tr><td>6th Period</td><td class="class-cell " data-day="Monday">
+      <span class="subject">S.S.</span>
+      <span class="teacher">S. Mercado</span>
+      <span class="time">12:30 - 1:30 pm</span>
+    </td><td class="class-cell " data-day="Tuesday">
+      <span class="subject">S.S.</span>
+      <span class="teacher">S. Mercado</span>
+      <span class="time">1:00 - 2:00 pm</span>
+    </td><td class="class-cell " data-day="Wednesday">
+      <span class="subject">S.S.</span>
+      <span class="teacher">S. Mercado</span>
+      <span class="time">1:00 - 2:00 pm</span>
+    </td><td class="class-cell " data-day="Thursday">
+      <span class="subject">ENGLISH</span>
+      <span class="teacher">M. Franco</span>
+      <span class="time">12:00 - 1:00 pm</span>
+    </td><td class="class-cell " data-day="Friday">
+      <span class="subject">HOMEROOM</span>
+      <span class="teacher">A. Cristobal</span>
+      <span class="time">1:00 - 1:30 pm</span>
+    </td></tr><tr><td class="break">Break</td><td class="break" data-day="Monday">Break / Snacks</td><td class="break" data-day="Tuesday">Break / Snacks</td><td class="break" data-day="Wednesday">Break / Snacks</td><td class="break" data-day="Thursday">Break / Snacks</td><td class="break" data-day="Friday">Break / Snacks</td></tr><tr><td>7th Period</td><td class="class-cell " data-day="Monday">
+      <span class="subject">SCIENCE</span>
+      <span class="teacher">A. Galang</span>
+      <span class="time">1:30 - 2:30 pm</span>
+    </td><td class="empty" data-day="Tuesday">—</td><td class="class-cell " data-day="Wednesday">
+      <span class="subject">HOMEROOM</span>
+      <span class="teacher">A. Cristobal</span>
+      <span class="time">2:00 - 2:30 pm</span>
+    </td><td class="class-cell " data-day="Thursday">
+      <span class="subject">C.A.T</span>
+      <span class="teacher">R. Santos</span>
+      <span class="time">1:00 - 2:00 pm</span>
+    </td><td class="empty" data-day="Friday">—</td></tr></tbody>
+    </table>
+  </div>
+  <footer>Click any class to view its details.</footer>
+</div>
+<div id="modal" class="modal">
+  <div class="modal-box">
+    <button id="closeModal" class="close">×</button>
+    <h2 id="modalTitle">Class</h2>
+    <p id="modalText"></p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
